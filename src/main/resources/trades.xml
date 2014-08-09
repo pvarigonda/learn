@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<trade>
+        <isin>XYZ0001</isin>
+        <quantity>5</quantity>
+        <price>11.39</price>
+        <customer>Customer1</customer>
+</trade>
