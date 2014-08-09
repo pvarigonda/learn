@@ -26,7 +26,7 @@ public class Application {
             
         List<Person> results = ctx.getBean(JdbcTemplate.class).query("SELECT first_name, last_name FROM people", rowMapper);
 
-        //Changes for master branch
+        //Changes for master branch additional change
         //List out all the persons in database
         for (Person person : results) {
             System.out.println("Found <" + person + "> in the database.");
